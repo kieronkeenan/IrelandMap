@@ -9,7 +9,7 @@
 */
 $(function(){
 	
-	var r = Raphael('map'),
+	var r = new Raphael('map'),
 	attributes = {
         fill: '#e0e0e0',
         stroke: '#fff',
@@ -26,8 +26,7 @@ $(function(){
 		
 		arr[obj.id] = country;
 		
-		obj
-		.hover(function(){
+		obj.hover(function(){
 			this.animate({
 				fill: '#1669AD'
 			}, 300);
@@ -39,7 +38,7 @@ $(function(){
 		.mouseover(function(){
 			document.location.hash = arr[this.id];
 			
-			var point = this.getBBox(0);
+			/*var point = this.getBBox(0);
 			
 			$('#map').next('.point').remove();
 			
@@ -54,7 +53,7 @@ $(function(){
 				left: point.x+(point.width/2)-80,
 				top: point.y+(point.height/2)-20
 			})
-			.fadeIn();
+			.fadeIn();*/
 			
 		});
 		
