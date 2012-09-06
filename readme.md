@@ -1,20 +1,13 @@
-# Interactive Turkey Map
+# Interactive Ireland Map
 
 Uses RafaelJs plugin 
 
-TODO:
-- Tooltips can be add [Added]
-- City pictures will be add 
-- Tooltips doesn't hide itself when mouseout to map, should be fix.
-- Mobile device support will be research
+[See demo](http://abandon.ie/ireland)
 
-
-[See demo](http://selengora.com/test/harita)
-
-**jquery interactive Turkey Map, still in progress. Thanks..
+**jquery interactive Ireland Map.
 
 # Browser Support
-- Browser compatibility test is not completed, some bugs will be all major browsers and ofcourse IE:)
+- Who the hell knows
 
 # Change Log - v0.5 2012/09/05
 

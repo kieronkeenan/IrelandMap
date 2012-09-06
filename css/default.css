@@ -34,6 +34,9 @@ h1,p	{
 	position:relative;
 	top:-100px; /* SVG image is starting with 130px top value so i used top:-100px  */	
 }
+#map >svg{
+	width: 500px;
+}
 
 /*Tooltip*/
 .point {

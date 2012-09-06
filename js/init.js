@@ -11,11 +11,11 @@ $(function(){
 	
 	var r = Raphael('map'),
 	attributes = {
-            fill: '#e0e0e0',
-            stroke: '#333',
-            'stroke-width': 0,
-            'stroke-linejoin': 'round'
-        },
+        fill: '#e0e0e0',
+        stroke: '#fff',
+        'stroke-width': 1,
+        'stroke-linejoin': 'round'
+    },
 	arr = new Array();
 	
 	for (var country in paths) {
